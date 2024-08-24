@@ -1,8 +1,3 @@
-// const hero = {
-//    name: 'Маг',
-//    health: 15,
-// };
-
 function showHealth(hero) {
    let indicator;
    if (hero.health >= 50) {
