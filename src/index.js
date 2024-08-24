@@ -4,7 +4,7 @@ function showHealth(hero) {
       indicator = 'healthy';
    } else if (hero.health >= 15 && hero.health < 50) {
       indicator = 'wounded';
-   } else if (hero.health < 15) {
+   } else {
       indicator = 'critical';
    }
    return indicator;
